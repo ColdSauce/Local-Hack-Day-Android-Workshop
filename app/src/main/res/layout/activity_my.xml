@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="100dp"
+            android:hint = "first num"
+            android:id = "@+id/firstNum"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:hint = "second num"
+            android:id = "@+id/secondNum"
+            android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text = "is bigger"
+        android:onClick="clickedButton"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/peggyHill"
+
+        />
+
+
+</LinearLayout>
